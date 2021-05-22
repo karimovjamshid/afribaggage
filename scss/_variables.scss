@@ -1,0 +1,50 @@
+/* Colors
+=================== */
+$accent: #FF1502;
+$success: #34B406;
+$secondary: #0A62A9;
+$orange:#FA8729;
+$black:#000;
+$black50: rgba(0, 0, 0, .5);
+$dark: #484848;
+$gray: #6A6A6A;
+$gray-300:#D1D1D1;
+$light-gray: #ebebeb;
+$white: #fff;
+/* Box shadow
+=================== */
+$shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+
+/* Fonts
+=================== */
+@font-face {
+    font-family: 'Portada';
+    src: url('../fonts/Portada/Portada-Bold.ttf') format('truetype'),
+        url('../fonts/Portada/PortadaLt-Italic.ttf') format('truetype'),
+        url('../fonts/Portada/Portada.ttf') format('truetype'),
+        url('../fonts/Portada/PortadaText.ttf') format('truetype'),
+        url('../fonts/Portada/PortadaText.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SfProDisplay';
+    src: url('../fonts/SfProDisplay/FontsFree-Net-SFProDisplay-Bold.ttf') format('truetype'),
+        url('../fonts/SfProDisplay/FontsFree-Net-SFProDisplay-Medium.ttf') format('truetype'),
+        url('../fonts/SfProDisplay/FontsFree-Net-SFProDisplay-Regular.ttf') format('truetype'),
+        url('../fonts/SfProDisplay/FontsFree-Net-SFProDisplay-Semibold.ttf') format('truetype');
+}
+
+$text: 'SfProDisplay';
+$heading: 'Portada';
+
+/* Media queries
+=================== */
+$laptop-xl:1600px;
+$laptop-lg:1400px;
+$laptop:1200px;
+$laptop-sm:1100px;
+$tablet: 995px;
+$mobile: 670px;
+$mobile-lg: 570px;
+$mobile-sm: 420px;
+$mobile-xs: 350px;

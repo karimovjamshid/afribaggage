@@ -1,0 +1,213 @@
+/* General styles
+ ===================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: $text;
+    font-size: 1.4rem;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Portada';
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1100px;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    color: $black;
+    font-size: 1.8rem;
+    line-height: 1.7;
+    margin-top: 1rem;
+    font-weight: 400;
+
+    &--alt {
+        color: $dark;
+    }
+
+    @media(max-width: $laptop-xl) {
+        font-size: 1.6rem;
+    }
+
+    @media(max-width: $laptop-lg) {
+        font-size: 1.4rem;
+    }
+}
+
+.btn {
+    border: none;
+    font-family: $text;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    padding: 1.2rem 2.5rem;
+    font-weight: 400;
+    color: $white;
+    background-color: $accent;
+    display: flex;
+    align-items: center;
+    transition: background-color .3s linear;
+
+    img {
+        margin-left: 0.7rem;
+    }
+
+    &:hover {
+        cursor: pointer;
+        background-color: darken($accent, 5%);
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    @media(max-width: $laptop-sm) {
+        font-size: 1.6rem;
+    }
+}
+
+.input {
+    border: 1px solid $light-gray;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    font-family: $text;
+    width: 100%;
+
+    @media(max-width: $laptop-xl) {
+        font-size: 1.6rem;
+    }
+
+    @media(max-width: $laptop-lg) {
+        font-size: 1.4rem;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.img-full {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.huge-btn {
+    background-color: $orange;
+    padding: 3rem 7rem;
+    font-size: 3.2rem;
+    color: $white;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: $shadow;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &--alert {
+        background-color: $accent;
+    }
+
+    @media(max-width: $laptop-sm) {
+        font-size: 2.4rem;
+    }
+
+    @media(max-width: $mobile) {
+        font-size: 2rem;
+        padding: 3rem 1rem;
+    }
+
+    @media(max-width: $mobile-xs) {
+        font-size: 1.6rem;
+    }
+}
+
+.heading-3 {
+    font-weight: 900;
+    font-size: 3rem;
+    text-transform: uppercase;
+
+    @media(max-width: $laptop-sm) {
+        font-size: 2.4rem;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.slick-dots {
+    display: flex;
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    li {
+        margin-right: 1rem;
+
+
+        button {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            border: none;
+            font-size: 0;
+            background-color: #E9E9E9;
+            cursor: pointer;
+
+            &:focus {
+                outline: none;
+
+            }
+        }
+    }
+}
+
+.slick-active {
+    button {
+        background-color: $orange !important;
+        width: 18px !important;
+        height: 18px !important;
+    }
+}
