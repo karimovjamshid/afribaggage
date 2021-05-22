@@ -175,7 +175,6 @@
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
-        flex-wrap: wrap;
 
         @media(max-width: $mobile) {
             justify-content: center;
@@ -188,7 +187,6 @@
         border-radius: .3em;
 
         @media(max-width: $mobile) {
-            flex-basis: 45%;
             display: flex;
             justify-content: center;
             margin-bottom: 1rem;
@@ -208,10 +206,6 @@
 /* About
 ===================*/
 .about {
-    margin: 7rem 0;
-
-
-
     &__container {
         margin: 4rem auto;
     }
@@ -301,8 +295,6 @@
 /* How it works
 ===================*/
 .structure {
-    margin: 7rem 0;
-
     &__container {
         max-width: 940px;
         width: 100%;
@@ -390,7 +382,7 @@
 /* Testimonials
 ===================*/
 .testimonials {
-    margin: 7rem 0;
+    margin-bottom: 4rem;
 
     &__content {
         display: flex;
@@ -435,7 +427,7 @@
     &__right {
         flex-basis: 49%;
         background-color: #F8F8F8;
-        padding: 4rem 2rem 0;
+        padding: 4rem 2rem !important;
 
         @media(max-width: $laptop-sm) {
             flex-basis: 100%;
@@ -446,8 +438,8 @@
     &__slider {
         max-width: 457px;
         margin: 0 auto;
-        padding: 0 1rem;
     }
+
 }
 
 .facebook-post {
@@ -561,6 +553,34 @@
     }
 }
 
+/* Order header
+===================*/
+.order-header {
+    padding: 3rem 0;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            margin-bottom: 3rem;
+        }
+    }
+
+
+    &__right {
+        display: flex;
+        align-items: center;
+    }
+
+
+    &__text {
+        margin-bottom: 3rem;
+    }
+}
+
+
 
 /* Footer
 ===================*/
@@ -579,18 +599,39 @@
     &__content {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         height: 100%;
         width: 100%;
+
+        @media(max-width: $mobile-sm) {
+            justify-content: center;
+        }
     }
 
 
     &__left {
         color: rgba(0, 0, 0, .4);
+
+        @media(max-width: $mobile-sm) {
+            flex-basis: 100%;
+            margin-bottom: 2rem;
+        }
+    }
+
+    &__right {
+
+        @media(max-width: $mobile-sm) {
+            flex-basis: 100%;
+        }
     }
 
     &__link {
         text-decoration: underline;
         color: rgba(0, 0, 0, .7);
         margin-left: 2rem;
+
+        &:first-child {
+            margin-left: 0;
+        }
     }
 }

@@ -1,5 +1,45 @@
+document.addEventListener('DOMContentLoaded', () => {
+
 jQuery(function ($) {
-    
+
+    const timer = $('.timer').FlipClock({
+        autoStart: false,
+
+    })
+    timer.setTime(5000);
+    timer.setCountdown(true);
+    timer.start();
+
+        $('.about-slider__content').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: false,
+            responsive: [{
+                    breakpoint: 1130,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+        $('.testimonials__slider').slick({
+            infinite: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: true
+        });
+
 
 // ======== Filter ========
 
@@ -29,4 +69,11 @@ sectionsIcon.on('click', function(){
 // ======== End Filter ========
 
 
+    
+    
+    
+    
+
 })
+
+});
