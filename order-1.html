@@ -28,7 +28,11 @@
             </div>
         </div>
     </header>
+    <div class="ship-info">
+        <div class="ship-info__container container">
 
+        </div>
+    </div>
 
 
 
@@ -51,6 +55,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="js/flipclock.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        const timer = $('.timer').FlipClock({
+            autoStart: false,
+
+        })
+        timer.setTime(5000);
+        timer.setCountdown(true);
+        timer.start();
+    </script>
 </body>
 
 </html>

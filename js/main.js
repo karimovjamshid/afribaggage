@@ -2,13 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 jQuery(function ($) {
 
-    const timer = $('.timer').FlipClock({
-        autoStart: false,
-
-    })
-    timer.setTime(5000);
-    timer.setCountdown(true);
-    timer.start();
+    
 
         $('.about-slider__content').slick({
             infinite: true,
