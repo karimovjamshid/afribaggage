@@ -39,6 +39,7 @@ jQuery(function ($) {
 
 let filter = $("[data-filter]");
 let sectionsIcon = $(".sections__icon");
+let miniNavLink = $(".mini-nav__link");
 
 filter.on('click', function(event){
     event.preventDefault();
@@ -57,6 +58,9 @@ filter.on('click', function(event){
 
 })
 sectionsIcon.on('click', function(){
+    $(this).addClass('active').siblings().removeClass('active');
+})
+miniNavLink.on('click', function(){
     $(this).addClass('active').siblings().removeClass('active');
 })
 
