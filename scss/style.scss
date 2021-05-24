@@ -1738,6 +1738,7 @@
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-weight: 500;
         flex-basis: 20%;
+        min-width: 80px;
     }
 
     &__input {
@@ -1804,6 +1805,7 @@
     box-sizing: border-box;
 
     option {
+        width: 100px;
         box-sizing: border-box;
     }
 
@@ -1839,6 +1841,10 @@
     background-color: $aqua;
     padding: 1.2rem 2rem;
     margin-top: 1.3rem;
+
+    @media(max-width:$tablet-sm) {
+        margin-top: 0;
+    }
 
     &__content {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
