@@ -155,6 +155,8 @@ li {
     border-radius: 1rem;
     text-align: center;
     box-shadow: $shadow;
+    display: flex;
+    justify-content: center;
 
     &:hover {
         cursor: pointer;
@@ -239,6 +241,7 @@ li {
 .hidden {
     overflow-y: hidden;
     height: 0;
+    visibility: hidden;
 }
 
 .slick-dots {
