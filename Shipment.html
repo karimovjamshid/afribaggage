@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shipment</title>
+    <link rel="stylesheet" href="css/flipclock.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <!-- ============= Header ============= -->
+    <header class="order-header">
+        <div class="container order-header__container">
+            <a href="index.html" class="logo">
+                <img src="img/all/logo.png" alt="logo" width="140">
+            </a>
+            <div class="order-header__right">
+                <div class="order-header__text">Shipment Lives Ukraine on</div>
+                <div class="timer">
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="ship-info">
+        <div class="ship-info__container container">
+            <div class="ship-info__wrapper">
+                <div class="ship-info-left">
+                    <div class="ship-info-left__img">
+                        <img src="img/all/lock.png" alt="">
+                    </div>
+                    <div class="ship-info-left__heading">
+                        <span>Secure</span>
+                        Order form
+                    </div>
+                </div>
+                <div class="ship-info-center">
+                    <h4 class="ship-info-center__h4">ships from</h4>
+                    <div class="ship-info-center__content">
+                        <div class="ship-info-center__from">
+                            <div class="ship-info-center__flag">
+                                <img src="img/all/nigeria-flag.png" alt="">
+                            </div>
+                            <div class="ship-info-center__country">Ukraine</div>
+                        </div>
+                        <div class="ship-info-center__dots">
+                            <img src="img/all/dots.png" class="img-full" alt="">
+                        </div>
+                        <div class="ship-info-center__to">
+                            <div class="ship-info-center__flag">
+                                <img src="img/all/usa-flag.png" alt="">
+                            </div>
+                            <div class="ship-info-center__country">
+                                <select name="" class="select-alt" id="">
+                                    <option value="">Nigeria</option>
+                                    <option value="">Russia</option>
+                                    <option value="">Ukraine</option>
+                                </select>
+                            </div>
+                            <div class="ship-info-center__arrow">
+                                <img src="img/icons/arrow-down.png" width="12" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ship-info-right">
+                    <div class="ship-info-right__box">
+                        <div class="ship-info-right__left">
+                            <h6 class="ship-info-right__h6">Order by Phone or Ask Questions</h6>
+                            <a href="tel:+3802323566" class="ship-info-right__tel">+380-23-23-566</a>
+                            <div class="ship-info-right__chat">Call or click to chat now</div>
+                        </div>
+                        <div class="ship-info-right__center">
+                            <img src="img/all/laptop-woman.png" class="img-full" alt="">
+                        </div>
+                        <div class="ship-info-right__right">
+                            <a href="#" class="ship-info-right__livechat">CLICK FOR LIVE CHAT</a>
+                            <div class="ship-info-right__group">
+                                <div class="ship-info-right__ellipse">
+                                    <img src="img/icons/green-ellipse.png" width="23" alt="">
+                                </div>
+                                <div class="ship-info-right__online">Online</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="max-box">
+        <div class="max-box__container">
+            To make a successful Booking, Ensure all bags are
+            packaged into 30-40kg Maximum for easy lifting!
+        </div>
+    </div>
+    <nav class="mini-nav">
+        <div class="mini-nav__link active" data-filter="shipment-detail">Shipment Detail
+            <img src="img/icons/arrow-down.png" width="12" alt="">
+        </div>
+        <div class="mini-nav__link" data-filter="contact-information">Contact Information
+            <img src="img/icons/arrow-down.png" width="12" alt="">
+        </div>
+        <div class="mini-nav__link" data-filter="total">Total Amount</div>
+    </nav>
+    <div class="order">
+        <div class="order__container container">
+            <aside class="order-sidebar">
+                <form method="" action="">
+                    <div class="shipment-detail" data-type="shipment-detail">
+                        <div class="your-phone">
+                            <h4 class="your-phone__h4">What is Your Phone No</h4>
+                            <div class="your-phone__group">
+                                <div class="your-phone__icon">
+                                    <img src="img/icons/phone.png" width="12" alt="">
+                                </div>
+                                <select name="" class="select" id="">
+                                    <option value="">+380</option>
+                                    <option value="">+390</option>
+                                    <option value="">+370</option>
+                                </select>
+                                <div class="your-phone__input">
+                                    <input type="text" placeholder="Enter your phone number" name="" id="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shipping-rate">
+                            <h4 class="heading-4">Choose Your shipping Rate</h4>
+                            <h5 class="heading-5">Available rates
+                                <img src="img/icons/info-circled.png" width="15" alt="">
+                            </h5>
+                            <div class="shipping-rate__wrapper">
+                                <div class="weight-card">
+                                    <div class="weight-card__content">
+                                        <div class="weight-card__img">
+                                            <img src="img/all/box-1.png" class="img-full" alt="">
+                                        </div>
+                                        <div class="weight-card__info">
+                                            1-10kg at <span>$65</span>
+                                        </div>
+                                        <div class="weight-card__saving">You saved $80!</div>
+                                        <div class="weight-card__price">$90</div>
+                                    </div>
+                                    <div class="weight-card__counter">
+                                        <input type="text" name="" placeholder="+" id="">
+                                    </div>
+                                </div>
+                                <div class="weight-card">
+                                    <div class="weight-card__content">
+                                        <div class="weight-card__img">
+                                            <img src="img/all/box-2.png" class="img-full" alt="">
+                                        </div>
+                                        <div class="weight-card__info">
+                                            11-25kg at <span>$98</span>
+                                        </div>
+                                        <div class="weight-card__saving">You saved $80!</div>
+                                        <div class="weight-card__price">$90</div>
+                                    </div>
+                                    <div class="weight-card__counter">
+                                        <input type="text" name="" placeholder="+" id="">
+                                    </div>
+                                </div>
+                                <div class="weight-card">
+                                    <div class="weight-card__content">
+                                        <div class="weight-card__img">
+                                            <img src="img/all/box-3.png" class="img-full" alt="">
+                                        </div>
+                                        <div class="weight-card__info">
+                                            26-35kg at <span>$135</span>
+                                        </div>
+                                        <div class="weight-card__saving">You saved $80!</div>
+                                        <div class="weight-card__price">$90</div>
+                                    </div>
+                                    <div class="weight-card__counter">
+                                        <input type="text" name="" placeholder="+" id="">
+                                    </div>
+                                </div>
+                                <div class="weight-card">
+                                    <div class="weight-card__content">
+                                        <div class="weight-card__img">
+                                            <img src="img/all/box-4.png" class="img-full" alt="">
+                                        </div>
+                                        <div class="weight-card__info">
+                                            36-50kg at <span>$190</span>
+                                        </div>
+                                        <div class="weight-card__saving">You saved $80!</div>
+                                        <div class="weight-card__price">$90</div>
+                                    </div>
+                                    <div class="weight-card__counter">
+                                        <input type="text" name="" placeholder="+" id="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shipping-rate__content">
+                                <h6 class="shipping-rate__h6">No. of pcs</h6>
+                                <div class="shipping-rate__row">
+                                    <div class="shipping-rate__checkbox">
+                                        <input type="checkbox" name="" id="65">
+                                        <label class="shipping-rate__label" for="65">1-10kg at $65</label>
+                                        <div class="shipping-rate__saved">You saved $80!</div>
+                                    </div>
+                                    <div class="shipping-rate__number">
+                                        <input type="text" name="" id="">
+                                    </div>
+                                </div>
+                                <div class="shipping-rate__row">
+                                    <div class="shipping-rate__checkbox">
+                                        <input type="checkbox" name="" id="98">
+                                        <label class="shipping-rate__label" for="98">10-20kg at $98</label>
+                                        <div class="shipping-rate__saved">You saved $80!</div>
+                                    </div>
+                                    <div class="shipping-rate__number">
+                                        <input type="text" name="" id="">
+                                    </div>
+                                </div>
+                                <div class="shipping-rate__row">
+                                    <div class="shipping-rate__checkbox">
+                                        <input type="checkbox" checked name="" id="135">
+                                        <label class="shipping-rate__label" for="135">20-30kg at $135</label>
+
+                                    </div>
+                                    <div class="shipping-rate__number">
+                                        <input type="text" name="" id="">
+                                    </div>
+                                </div>
+                                <div class="shipping-rate__row">
+                                    <div class="shipping-rate__checkbox">
+                                        <input type="checkbox" name="" id="190">
+                                        <label class="shipping-rate__label" for="190">36-50kg at $190</label>
+
+                                    </div>
+                                    <div class="shipping-rate__number">
+                                        <input type="text" name="" id="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shipping-rate__row">
+                                <div class="shipping-rate__radio">
+                                    <input type="radio" name="" id="weightOfBag">
+                                    <label for="weightOfBag">I dont know the weight of my bag. Send the weight to
+                                        me.</label>
+                                </div>
+                            </div>
+                            <h5 class="heading-5">Customs Shipments
+                                <img src="img/icons/info-circled.png" width="15" alt="">
+                            </h5>
+                            <div class="shipping-rate__row">
+                                <div class="shipping-rate__checkbox">
+                                    <input type="checkbox" name="" id="tel">
+                                    <label class="shipping-rate__label" for="tel">Television at $90</label>
+
+                                </div>
+                                <div class="shipping-rate__number">
+                                    <input type="text" name="" id="">
+                                </div>
+                            </div>
+                            <div class="shipping-rate__row">
+                                <div class="shipping-rate__checkbox">
+                                    <input type="checkbox" name="" id="sewing">
+                                    <label class="shipping-rate__label" for="sewing">Sewing Machine at $90</label>
+
+                                </div>
+                                <div class="shipping-rate__number">
+                                    <input type="text" name="" id="">
+                                </div>
+                            </div>
+                            <div class="shipping-rate__row">
+                                <div class="shipping-rate__checkbox">
+                                    <input type="checkbox" name="" id="microwawe">
+                                    <label class="shipping-rate__label" for="microwawe">Micro Wave at $90</label>
+
+                                </div>
+                                <div class="shipping-rate__number">
+                                    <input type="text" name="" id="">
+                                </div>
+                            </div>
+                            <div class="shipping-rate__row">
+                                <div class="shipping-rate__checkbox">
+                                    <input type="checkbox" name="" id="washing">
+                                    <label class="shipping-rate__label" for="washing">Washing Machine at $90</label>
+
+                                </div>
+                                <div class="shipping-rate__number">
+                                    <input type="text" name="" id="">
+                                </div>
+                            </div>
+                            <div class="shipping-rate__row">
+                                <div class="shipping-rate__checkbox">
+                                    <input type="checkbox" name="" id="refrigerator">
+                                    <label class="shipping-rate__label" for="refrigerator">Refrigerator at $200</label>
+
+                                </div>
+                                <div class="shipping-rate__number">
+                                    <input type="text" name="" id="">
+                                </div>
+                            </div>
+                            <h5 class="heading-5">Customs clearance
+                                <img src="img/icons/info-circled.png" width="15" alt="">
+                            </h5>
+                            <div class="shipping-rate__row">
+                                <div class="shipping-rate__checkbox">
+                                    <input type="checkbox" name="" id="9600">
+                                    <label class="shipping-rate__label" for="9600">Per bag cost N9600</label>
+
+                                </div>
+                                <div class="shipping-rate__number">
+                                    <input type="text" name="" id="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="packaging">
+                            <h4 class="heading-4">packaging</h4>
+                            <div class="packaging-box">
+                                <header class="packaging-box__header">
+                                    <div class="packaging-box__group">
+                                        <input type="checkbox" name="" id="addOn">
+                                        <label for="addOn">Place an add-on packaging on my shippment.</label>
+                                    </div>
+                                    <div class="packaging-box__price">$20</div>
+                                </header>
+                                <main class="packaging-box__content">
+                                    <div class="packaging-box__img">
+                                        <img src="img/all/wooden-frame.png" class="img-full" alt="">
+                                    </div>
+                                    <p class="packaging-box__text">
+                                        Items like this are super fragile and they need to be crated in a wooden frame
+                                        to
+                                        help protect it from shock or anything that may expose it to damages.
+                                    </p>
+                                </main>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-information" data-type="contact-information">
+                        <div class="contact-info">
+                            <h4 class="heading-4">Contact Information</h4>
+                            <h6 class="heading-6">SENDERS INFORMATION</h6>
+                            <div class="contact-info__content">
+                                <div class="contact-info__row">
+                                    <div class="contact-info__title">Name <span>*</span></div>
+                                    <div class="contact-info__input">
+                                        <input type="text" name="" placeholder="Enter your full name" id="">
+                                    </div>
+                                </div>
+                                <div class="contact-info__row">
+                                    <div class="contact-info__title">Phone <span>*</span></div>
+                                    <div class="contact-info__input">
+                                        <input type="text" name="" placeholder="Your phone number" id="">
+                                    </div>
+                                </div>
+                                <div class="contact-info__row">
+                                    <div class="contact-info__title">City <span>*</span></div>
+                                    <div class="contact-info__select">
+                                        <select name="" id="" class="select">
+                                            <option value="">Moscow</option>
+                                            <option value="">Kiev</option>
+                                            <option value="">New York</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="contact-info__row">
+                                    <div class="contact-info__title">Country <span>*</span></div>
+                                    <div class="contact-info__select">
+                                        <select name="" id="" class="select">
+                                            <option value="">Ukraine</option>
+                                            <option value="">Russia</option>
+                                            <option value="">Armenia</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="contact-info__row">
+                                    <div class="contact-info__title">Email <span>*</span></div>
+                                    <div class="contact-info__input">
+                                        <input type="email" name="" placeholder="johndoe@company.com" id="">
+                                    </div>
+                                </div>
+                                <div class="contact-info__row">
+                                    <div class="contact-info__title">Shipment purpose</div>
+                                    <div class="contact-info__select">
+                                        <select name="" id="" class="select">
+                                            <option value="">Ukraine</option>
+                                            <option value="">Russia</option>
+                                            <option value="">Armenia</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="contact-info__row">
+                                    <div class="contact-info__title">Content of Baggage</div>
+                                    <div class="contact-info__input">
+                                        <input type="text" name="" placeholder="What’s inside baggage?" id="">
+                                    </div>
+                                </div>
+                                <div class="contact-info__group">
+                                    <div class="contact-info__checkbox">
+                                        <input type="checkbox" name="" id="terms">
+                                    </div>
+                                    <label for="terms" class="contact-info__terms">
+                                        I accept the <a href="#">terms and condition</a> and <a href="">privacy
+                                            policy</a>.
+                                    </label>
+                                </div>
+                                <h6 class="heading-6">RECIEVERS INFORMATION</h6>
+                                <div class="contact-info__row">
+                                    <div class="contact-info__title">Name <span>*</span></div>
+                                    <div class="contact-info__input">
+                                        <input type="text" name="" placeholder="Enter your full name" id="">
+                                    </div>
+                                </div>
+                                <div class="contact-info__row">
+                                    <div class="contact-info__title">Phone <span>*</span></div>
+                                    <div class="contact-info__input">
+                                        <input type="text" name="" placeholder="Your phone number" id="">
+                                    </div>
+                                </div>
+                                <div class="contact-info__row">
+                                    <div class="contact-info__title">City <span>*</span></div>
+                                    <div class="contact-info__select">
+                                        <select name="" id="" class="select">
+                                            <option value="">Moscow</option>
+                                            <option value="">Kiev</option>
+                                            <option value="">New York</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="contact-info__row">
+                                    <div class="contact-info__title">Country <span>*</span></div>
+                                    <div class="contact-info__select">
+                                        <select name="" id="" class="select">
+                                            <option value="">Ukraine</option>
+                                            <option value="">Russia</option>
+                                            <option value="">Armenia</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="insurance">
+                            <div class="insurance__content">
+                                <label for="insurance" class="heading-5">Insurance
+                                    <img src="img/icons/info-circled.png" width="15" alt="">
+                                </label>
+                                <div class="insurance__checlbox">
+                                    <input type="checkbox" name="" id="insurance">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="total" data-type="total">
+                        <h6 class="heading-6">SENDERS INFORMATION</h6>
+                        <div class="total__content">
+                            <header class="total__header">
+                                <div class="total__w">w(kg)</div>
+                                <div class="total__qt">Qt.</div>
+                                <div class="total__pr">Price.</div>
+                            </header>
+                            <main class="total__main">
+                                <div class="total__row">
+                                    <div class="total__weight">20kg</div>
+                                    <div class="total__quantity">2</div>
+                                    <div class="total__price"><span>$</span>190</div>
+                                </div>
+                                <div class="total__row">
+                                    <div class="total__weight">50kg</div>
+                                    <div class="total__quantity">1</div>
+                                    <div class="total__price"><span>$</span>190</div>
+                                </div>
+                                <div class="total__row">
+                                    <div class="total__weight">70kg</div>
+                                    <div class="total__quantity">2</div>
+                                    <div class="total__price">N18600</div>
+                                </div>
+                            </main>
+                            <footer class="total__footer">
+                                <div class="total__title">Total</div>
+                                <div class="total__value">
+                                    <div class="total__top">
+                                        <span>$</span>190
+                                    </div>
+                                    <div class="total__bottom">
+                                        N22,000
+                                    </div>
+                                </div>
+                            </footer>
+
+                        </div>
+                        <div class="total__btn">
+                            <a href="order.html" class="btn btn--alt">Book now</a>
+                        </div>
+                    </div>
+                </form>
+            </aside>
+            <main class="order-main">
+                <div class="guarantee">
+                    <div class="guarantee__content">
+                        <div class="guarantee__secured">
+                            <img src="img/icons/lock-circled.png" alt="">
+                            Secured
+                        </div>
+                        <div class="guarantee__delivery">guaranteed delivery</div>
+                        <div class="guarantee__theft">
+                            <img src="img/icons/check-circled.png" width="14" alt="">
+                            theft protection
+                        </div>
+                        <div class="guarantee__price">
+                            <img src="img/icons/dollars-circled.png" width="14" alt="">
+                            lowest price guaranteed
+                        </div>
+                    </div>
+                </div>
+                <h2 class="order-main__h2">Special Pricing Ending Soon!!</h2>
+                <h3 class="order-main__h3">TODAYS DISCOUNTED RATE - <span>20KG per Bag</span></h3>
+                <div class="sale-box">
+                    <main class="sale-box__content">
+                        <div class="sale-box__left">
+                            <img src="img/all/sale40.png" alt="">
+                        </div>
+                        <div class="sale-box__right">
+                            <div class="sale-box__old">$170.00
+                                <img src="img/icons/cross.png" class="img-full" alt="">
+                            </div>
+                            <div class="sale-box__new">$90.00</div>
+                            <div class="sale-box__kg">Per 20 KG Bag</div>
+                        </div>
+                    </main>
+                    <h4 class="sale-box__h4">Last day to Save</h4>
+                    <a href="order.html" class="sale-box__btn">
+                        <img src="img/icons/arrow-left-white.png" width="50" alt="">
+                        <span>ORDER NOW TO SAVE $80</span>
+
+                    </a>
+                </div>
+                <div class="bonus-box">
+                    <div class="bonus-box__content">
+                        <div class="bonus-box__left">
+                            Bonus: Every person placing an order today receives 10 kg free!
+                        </div>
+                        <div class="bonus-box__right">
+                            <img src="img/all/fullbox.png" class="img-full" alt="">
+                            <div><span>10kg </span> free</div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="price-box">
+                    <div class="price-box__left">
+                        <img src="img/all/guarantee-badge.png" class="img-full" alt="">
+                    </div>
+                    <div class="price-box__right">
+                        <h3 class="price-box__h3">lowest price offer!</h3>
+                        <p class="price-box__text">
+                            It's our goal to provide you with the Cheapest Possible Price.
+                        </p>
+                        <p class="price-box__text">
+                            If a Competitor has a lower
+                            price, we beat it down by 10%
+                        </p>
+                        <p class="price-box__text">
+                            Check out our offers <a href="#">here</a>!
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="receive-box">
+                    <h3 class="receive-box__h3">How Soon Will I receive my Bags/Boxes?</h3>
+                    <p class="receive-box__text">
+                        All orders accumulated are shipped within the period of July 15th.
+                    </p>
+                    <p class="receive-box__text">
+                        Standard arrival time to Nigeria:
+                        (4 to 6 weeks ) by Sea.
+                    </p>
+                    <p class="receive-box__text">
+                        express Shipping: (10-5 business days) by Air.
+                    </p>
+                    <p class="receive-box__text">
+                        All products are shipped from
+                        Odessa Ukraine.
+                    </p>
+
+                </div>
+                <div class="order-customers">
+                    <h3 class="order-customers__h3">What our customers say?</h3>
+                    <div class="review-card">
+                        <header class="review-card__header">
+                            <div class="review-card__photo">
+                                <img src="img/all/person-1.png" class="img-full" alt="">
+                            </div>
+                            <div class="review-card__info">
+                                <div class="review-card__name">Blessing Ogwu</div>
+                                <div class="review-card__date">13 January</div>
+                            </div>
+                        </header>
+                        <main class="review-card__text">
+                            Good communication, great service and my bags arrived safely without damage.
+                        </main>
+                        <a href="#" class="review-card__footer">View all Reviews</a>
+                    </div>
+                    <div class="review-card">
+                        <header class="review-card__header">
+                            <div class="review-card__photo">
+                                <img src="img/all/person-2.png" class="img-full" alt="">
+                            </div>
+                            <div class="review-card__info">
+                                <div class="review-card__name">Джакобина Муунда</div>
+                                <div class="review-card__date">13 January</div>
+                            </div>
+                        </header>
+                        <main class="review-card__text">
+                            My baggages arrived Namiba safely. The price was good, communication was awesome, great
+                            service entirely. <br> Thank you Afribaggage <br> Definitely recommend them
+                        </main>
+                        <a href="#" class="review-card__footer">View all Reviews</a>
+                    </div>
+                    <div class="review-card">
+                        <header class="review-card__header">
+                            <div class="review-card__photo">
+                                <img src="img/all/person-3.png" class="img-full" alt="">
+                            </div>
+                            <div class="review-card__info">
+                                <div class="review-card__name">
+                                    <div class="review-card__name">Tanisha Bauleth Varelau</div>
+                                </div>
+                                <div class="review-card__date">1 month ago</div>
+                            </div>
+                        </header>
+                        <main class="review-card__text">
+                            Great service, communication and price. All items arrived safely to my home. <br>
+                            Thank you Afribaggage. <br>
+                            Definitely recommend them.
+                        </main>
+                        <a href="#" class="review-card__footer">View all Reviews</a>
+                    </div>
+                    <div class="order-customers__screen">
+                        <img src="img/all/screenshot1.png" class="img-full" alt="">
+                    </div>
+                    <a href="#" class="order-customers__review">View all Reviews</a>
+                </div>
+            </main>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- ============= Footer ============= -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__content">
+                <div class="footer__left">&copy;copyright2021</div>
+                <div class="footer__right">
+                    <a href="#" class="footer__link">Terms and Condition</a>
+                    <a href="#" class="footer__link">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/flipclock.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        const timer = $('.timer').FlipClock({
+            autoStart: false,
+
+        })
+        timer.setTime(5000);
+        timer.setCountdown(true);
+        timer.start();
+    </script>
+</body>
+
+</html>
