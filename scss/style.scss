@@ -2973,6 +2973,15 @@
         @media(max-width: $mobile-lg) {
             font-size: 2rem;
         }
+
+        @media(max-width: 440px) {
+            justify-content: flex-end;
+            font-size: 1.8rem;
+        }
+
+        @media(max-width: 340px) {
+            margin-left: 4rem;
+        }
     }
 }
 

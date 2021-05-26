@@ -3122,6 +3122,16 @@ li {
     @media (max-width: 570px) {
       .summary-header__heading {
         font-size: 2rem; } }
+    @media (max-width: 440px) {
+      .summary-header__heading {
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        font-size: 1.8rem; } }
+    @media (max-width: 340px) {
+      .summary-header__heading {
+        margin-left: 4rem; } }
 
 .summary-card {
   -webkit-flex-basis: 49%;
