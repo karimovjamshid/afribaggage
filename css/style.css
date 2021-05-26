@@ -2224,6 +2224,201 @@ li {
     .total__btn .btn {
       width: 100%; }
 
+.shipment-details {
+  -webkit-flex-basis: 49%;
+  -ms-flex-preferred-size: 49%;
+  flex-basis: 49%;
+  background-color: rgba(223, 223, 223, 0.2);
+  padding: 1.2rem 2rem;
+  margin-top: 2rem; }
+  @media (max-width: 995px) {
+    .shipment-details {
+      -webkit-flex-basis: 100%;
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%; } }
+  .shipment-details__content {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+  .shipment-details__header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding-bottom: 1rem;
+    font-size: 2rem; }
+  .shipment-details__h4 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin: 1rem 0; }
+  .shipment-details__main {
+    margin: 2rem 0;
+    font-size: 1.8rem; }
+  .shipment-details__or {
+    -webkit-flex-basis: 24%;
+    -ms-flex-preferred-size: 24%;
+    flex-basis: 24%; }
+  .shipment-details__name {
+    -webkit-flex-basis: 49%;
+    -ms-flex-preferred-size: 49%;
+    flex-basis: 49%;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.4rem; }
+  .shipment-details__quantity2 {
+    -webkit-flex-basis: 24%;
+    -ms-flex-preferred-size: 24%;
+    flex-basis: 24%;
+    text-align: center; }
+  .shipment-details__price2 {
+    -webkit-flex-basis: 24%;
+    -ms-flex-preferred-size: 24%;
+    flex-basis: 24%;
+    text-align: right; }
+  .shipment-details__w {
+    -webkit-flex-basis: 24%;
+    -ms-flex-preferred-size: 24%;
+    flex-basis: 24%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .shipment-details__qt {
+    -webkit-flex-basis: 24%;
+    -ms-flex-preferred-size: 24%;
+    flex-basis: 24%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .shipment-details__pr {
+    -webkit-flex-basis: 24%;
+    -ms-flex-preferred-size: 24%;
+    flex-basis: 24%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+  .shipment-details__row {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 1.5rem; }
+  .shipment-details__middle {
+    margin-top: 1.5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 1rem 0; }
+  .shipment-details__weight {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-basis: 24%;
+    -ms-flex-preferred-size: 24%;
+    flex-basis: 24%; }
+  .shipment-details__last {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-top: 1rem; }
+  .shipment-details__quantity {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-basis: 24%;
+    -ms-flex-preferred-size: 24%;
+    flex-basis: 24%; }
+  .shipment-details__price {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-flex-basis: 24%;
+    -ms-flex-preferred-size: 24%;
+    flex-basis: 24%; }
+  .shipment-details__order {
+    -webkit-flex-basis: 24%;
+    -ms-flex-preferred-size: 24%;
+    flex-basis: 24%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .shipment-details__footer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    padding-top: 1rem; }
+  .shipment-details__title {
+    font-size: 2rem; }
+  .shipment-details__value {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    font-size: 1.7rem;
+    font-weight: 500; }
+  .shipment-details__top {
+    margin-bottom: .3rem; }
+  .shipment-details__btn {
+    max-width: 320px;
+    width: 100%;
+    margin: 2rem auto 1rem; }
+    .shipment-details__btn .btn {
+      width: 100%; }
+
 .mini-nav {
   max-width: 500px;
   -webkit-box-pack: justify;
@@ -2827,6 +3022,295 @@ li {
       background-color: #FECB33;
       color: #000;
       border-radius: .5rem; }
+
+.summary {
+  margin: 3rem 0; }
+  .summary__content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .summary__h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+    color: #0F68A2;
+    text-align: center; }
+    @media (max-width: 1100px) {
+      .summary__h1 {
+        font-size: 3rem; } }
+    @media (max-width: 570px) {
+      .summary__h1 {
+        font-size: 2.2rem; } }
+    .summary__h1 span {
+      color: #FF0000; }
+  .summary__h4 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #0F68A2;
+    text-align: center;
+    max-width: 460px;
+    text-transform: capitalize;
+    color: #444444;
+    margin: 1.5rem auto; }
+    @media (max-width: 1100px) {
+      .summary__h4 {
+        font-size: 1.6rem; } }
+    .summary__h4 span {
+      font-weight: 600; }
+  .summary__h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+    color: #0F68A2;
+    text-align: center;
+    margin: 1rem 0 2rem; }
+    @media (max-width: 1100px) {
+      .summary__h3 {
+        font-size: 3rem; } }
+    @media (max-width: 570px) {
+      .summary__h3 {
+        font-size: 2rem; } }
+
+.summary-header {
+  background: url("../img/all/order-header-alt.png") no-repeat center left;
+  background-size: cover;
+  padding: 3rem 0; }
+  .summary-header__content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .summary-header__heading {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #fff;
+    -webkit-flex-basis: 90%;
+    -ms-flex-preferred-size: 90%;
+    flex-basis: 90%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    @media (max-width: 1100px) {
+      .summary-header__heading {
+        font-size: 4rem; } }
+    @media (max-width: 800px) {
+      .summary-header__heading {
+        font-size: 3rem;
+        margin-bottom: 1rem; } }
+    @media (max-width: 570px) {
+      .summary-header__heading {
+        font-size: 2rem; } }
+
+.summary-card {
+  -webkit-flex-basis: 49%;
+  -ms-flex-preferred-size: 49%;
+  flex-basis: 49%;
+  background: rgba(223, 223, 223, 0.2);
+  margin-top: 2rem;
+  min-height: 300px; }
+  @media (max-width: 505px) {
+    .summary-card {
+      -webkit-flex-basis: 100%;
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%; } }
+  .summary-card__header {
+    background-color: #fff;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    border-right: 20px solid #FFAF48;
+    padding: 1.2rem; }
+  .summary-card__heading {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    text-transform: uppercase; }
+    @media (max-width: 570px) {
+      .summary-card__heading {
+        font-size: 1.6rem; } }
+  .summary-card__content {
+    padding: 1.2rem; }
+  .summary-card__item {
+    margin-top: 1.5rem; }
+  .summary-card__title {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+    color: #9E9E9E;
+    font-size: 1.8rem;
+    font-weight: 500; }
+  .summary-card__value {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    max-width: 200px; }
+
+.social {
+  max-width: 230px;
+  width: 100%;
+  margin: 3rem 0 3rem auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.warehouse__heading {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 2.4rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 3rem auto 4rem;
+  width: 100%;
+  -webkit-flex-basis: 60%;
+  -ms-flex-preferred-size: 60%;
+  flex-basis: 60%;
+  text-transform: capitalize;
+  text-align: center; }
+  @media (max-width: 995px) {
+    .warehouse__heading {
+      font-size: 2rem; } }
+  .warehouse__heading::after {
+    content: '';
+    display: block;
+    max-width: 240px;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-flex-basis: 20%;
+    -ms-flex-preferred-size: 20%;
+    flex-basis: 20%; }
+  .warehouse__heading::before {
+    content: '';
+    display: block;
+    max-width: 240px;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-flex-basis: 20%;
+    -ms-flex-preferred-size: 20%;
+    flex-basis: 20%; }
+
+.warehouse__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.summary-invoice__h3 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 3rem auto; }
+  @media (max-width: 670px) {
+    .summary-invoice__h3 {
+      font-size: 1.8rem; } }
+
+.summary-invoice__box {
+  max-width: 930px;
+  width: 100%;
+  background-color: rgba(223, 223, 223, 0.2);
+  padding: 1rem 2rem;
+  margin: 2rem auto; }
+
+.summary-invoice__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.summary-invoice__numbers {
+  -webkit-flex-basis: 90%;
+  -ms-flex-preferred-size: 90%;
+  flex-basis: 90%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 1rem 0; }
+  @media (max-width: 470px) {
+    .summary-invoice__numbers {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center; } }
+
+.summary-invoice__icon {
+  border-right: 2px solid #D1D1D1;
+  padding-right: 2rem; }
+
+.summary-invoice__number {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 2.4rem; }
+  @media (max-width: 800px) {
+    .summary-invoice__number {
+      font-size: 2rem; } }
+  @media (max-width: 470px) {
+    .summary-invoice__number {
+      margin-top: 0.5rem; } }
 
 /* Footer
 ===================*/
