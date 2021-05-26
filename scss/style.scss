@@ -2443,15 +2443,7 @@
     flex-basis: 34%;
 
     @media(max-width: $mobile) {
-        flex-basis: 100%;
-        margin-bottom: 2rem;
-    }
-
-    &__top {
-        @media(max-width: $mobile) {
-            max-width: 320px;
-            margin: 0 auto;
-        }
+        display: none;
     }
 }
 
@@ -2533,6 +2525,53 @@
 
     @media(max-width: $mobile) {
         flex-basis: 100%;
+        order: 1;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        padding-top: 2rem;
+
+        @media(max-width: $mobile) {
+            justify-content: space-between;
+            background: #F9F9F9;
+        }
+
+        @media(max-width: $mobile-sm) {
+            justify-content: center;
+        }
+    }
+
+    &__heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        @media(max-width: $mobile) {
+            flex-basis: 70%;
+        }
+
+        @media(max-width: $mobile-sm) {
+            flex-basis: 100%;
+        }
+    }
+
+    &__photo {
+        flex-basis: 30%;
+        display: none;
+        align-items: flex-end;
+
+        @media(max-width: $mobile) {
+            display: flex;
+        }
+
+        @media(max-width: $mobile-sm) {
+            flex-basis: 70%;
+            margin-bottom: 2rem;
+        }
     }
 
     &__h2 {
@@ -2551,7 +2590,7 @@
             font-size: 2rem;
         }
 
-        @media(max-width: $mobile-sm) {
+        @media(max-width: $mobile-lg) {
             font-size: 1.8rem;
         }
     }
@@ -2601,7 +2640,7 @@
             font-size: 1.8rem;
         }
 
-        @media(max-width: $mobile-sm) {
+        @media(max-width: $mobile-lg) {
             font-size: 1.5rem;
         }
     }
