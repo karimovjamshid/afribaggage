@@ -12,6 +12,10 @@
   font-family: 'SfProDisplay';
   src: url("../fonts/SfProDisplay/FontsFree-Net-SFProDisplay-Bold.ttf") format("truetype"), url("../fonts/SfProDisplay/FontsFree-Net-SFProDisplay-Medium.ttf") format("truetype"), url("../fonts/SfProDisplay/FontsFree-Net-SFProDisplay-Regular.ttf") format("truetype"), url("../fonts/SfProDisplay/FontsFree-Net-SFProDisplay-Semibold.ttf") format("truetype"); }
 
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url("../fonts/SourceSansPro/source-sans-pro.bold.ttf") format("truetype"), url("../fonts/SourceSansPro/source-sans-pro.italic.ttf") format("truetype"), url("../fonts/SourceSansPro/source-sans-pro.regular.ttf") format("truetype"), url("../fonts/SourceSansPro/source-sans-pro.semibold.ttf") format("truetype"); }
+
 /* Media queries
 =================== */
 /* General styles
@@ -24,10 +28,10 @@
 html {
   font-size: 10px;
   scroll-behavior: smooth;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  font-family: SourceSansPro; }
 
 body {
-  font-family: "SfProDisplay";
   font-size: 1.4rem;
   overflow-x: hidden; }
 
@@ -425,9 +429,9 @@ li {
         justify-content: center;
         margin-bottom: 1rem; } }
     .sections__icon.active {
-      border-color: #ebebeb; }
+      border-color: #0A62A9; }
     .sections__icon:hover {
-      border-color: #ebebeb;
+      border-color: #0A62A9;
       cursor: pointer; }
 
 /* About
@@ -497,7 +501,7 @@ li {
   text-transform: uppercase;
   color: #484848;
   font-weight: 700;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   position: absolute;
   bottom: 3rem;
   left: 0;

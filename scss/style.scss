@@ -193,11 +193,11 @@
         }
 
         &.active {
-            border-color: $light-gray;
+            border-color: $secondary;
         }
 
         &:hover {
-            border-color: $light-gray;
+            border-color: $secondary;
             cursor: pointer;
         }
     }
@@ -270,7 +270,7 @@
         text-transform: uppercase;
         color: $dark;
         font-weight: 700;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         position: absolute;
         bottom: 3rem;
         left: 0;
