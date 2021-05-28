@@ -10,11 +10,12 @@ html {
     font-size: 10px;
     scroll-behavior: smooth;
     overflow-x: hidden;
-    font-family: SourceSansPro;
+
+
 }
 
 body {
-
+    font-family: 'SourceSansPro';
     font-size: 1.4rem;
     overflow-x: hidden;
 }
@@ -25,7 +26,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Portada';
+    font-family: 'SourceSansPro';
 }
 
 a {
@@ -321,4 +322,108 @@ li {
 
 .flip-clock-dot.bottom {
     bottom: 45px;
+}
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    min-height: 100vh;
+    z-index: 4000;
+    padding: 1rem;
+    display: none;
+    align-items: center;
+    overflow-y: hidden;
+    background-color: rgba(0, 0, 0, .6);
+
+    &.active {
+        display: flex;
+    }
+
+    &__container {
+        overflow-y: auto;
+        max-height: 90vh;
+
+    }
+}
+
+.modal-window {
+    max-width: 620px;
+    width: 100%;
+    margin: 3rem auto 1rem;
+    z-index: 4002;
+
+    &__header {
+        background: #2F81B7;
+        border-top-left-radius: .3rem;
+        border-top-right-radius: .3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: $white;
+        text-transform: capitalize;
+        font-size: 2rem;
+        padding: 1rem 1.5rem;
+    }
+
+
+    &__close {
+        cursor: pointer;
+    }
+
+
+    &__content {
+        padding: 1rem 1.5rem;
+        background-color: $white;
+    }
+
+    &__container {
+        padding: 2rem 1.5rem;
+        background-color: $white;
+    }
+
+    &__img {
+        max-width: 120px;
+        margin: 3rem auto;
+    }
+
+    &__input {
+        margin: 2rem auto;
+        max-width: 140px;
+
+        input {
+            width: 100%;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 500;
+            font-size: 1.4rem;
+            background-color: $white;
+            border: none;
+            border-bottom: 1px solid $black;
+            padding: 1rem;
+
+            &::placeholder {
+                text-align: center;
+                font-size: 1.6rem;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+
+        button {
+            border-radius: .3rem;
+            font-style: normal;
+        }
+    }
 }
