@@ -3342,7 +3342,11 @@ li {
     font-weight: 500;
     background: #F3F6F9;
     padding-left: 1rem;
-    padding-bottom: 1rem; }
+    padding-bottom: 1rem;
+    display: none; }
+    @media (max-width: 670px) {
+      .left-mini__footer {
+        display: block; } }
 
 .lock-price {
   max-width: 490px;

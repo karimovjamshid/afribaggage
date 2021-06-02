@@ -3148,6 +3148,11 @@
         background: #F3F6F9;
         padding-left: 1rem;
         padding-bottom: 1rem;
+        display: none;
+
+        @media(max-width: $mobile) {
+            display: block;
+        }
     }
 }
 
